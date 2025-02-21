@@ -1,10 +1,10 @@
 import css from "./ProfileImgText.module.css"
 
-export default function ProfileImgText({ name, tag, location, imgUrl = "https://cdn-icons-png.flaticon.com/512/2922/2922506.png" }) {
+export default function ProfileImgText({ name, tag, location, image }) {
     return (
         <div>
-            <img className={css.img}
-                src={imgUrl}
+            <img className={css.image}
+                src={image}
                 alt={name}
             />
             <p className={css.name}>{name}</p>

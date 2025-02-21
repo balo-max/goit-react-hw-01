@@ -6,7 +6,7 @@
   border-top: 4px solid #808080;
 }
 
-li {
+.item {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,10 +14,10 @@ li {
   padding: 25px 15px;
   background-color: #dcdcdc;
 }
-li:first-child {
+.item:first-child {
   border-right: 4px solid #808080;
 }
-li:last-child {
+.item:last-child {
   border-left: 4px solid #808080;
 }
 
